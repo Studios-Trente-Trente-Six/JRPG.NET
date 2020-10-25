@@ -31,5 +31,5 @@ jobs:
       with:
         name: JRPG.NET.Portable
         path: |
-          bin/Release/netcoreapp3.1/publish/Library/JRPG.NET.dll
-          bin/Release/netcoreapp3.1/publish/Library/JRPG.NET.pdb
+          bin/Release/netstandard2.0/publish/Library/JRPG.NET.dll
+          bin/Release/netstandard2.0/publish/Library/JRPG.NET.pdb
