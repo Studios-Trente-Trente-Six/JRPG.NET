@@ -31,5 +31,11 @@ jobs:
       with:
         name: JRPG.NET.Portable
         path: |
-          bin/Release/netstandard2.0/publish/Library/JRPG.NET.dll
-          bin/Release/netstandard2.0/publish/Library/JRPG.NET.pdb
+          bin/Release/netstandard2.0/JRPG.NET.dll
+          bin/Release/netstandard2.0/JRPG.NET.pdb
+    - name: Upload NuPKG
+      uses: actions/upload-artifact@v2
+      with:
+        name: JRPG.NET.Portable
+        path: |
+          bin/Release/netstandard2.0/publish/Library/JRPG.NET.1.0.0.nupkg

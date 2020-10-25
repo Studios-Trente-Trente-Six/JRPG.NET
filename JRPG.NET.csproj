@@ -7,37 +7,21 @@
     <Company>Studios Trente Trente-SixStudios Trente Trente-Six</Company>
     <Description>A library that helps in Table games, RPG, JRPG, MMO RPG game creation by providing basic interfaces and classes.</Description>
     <Copyright>2020 (c) Studios Trente Trente-Six</Copyright>
-    <PackageLicenseExpression>MIT License
-
-Copyright (c) 2020 Association Studios Trente Trente-Six
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-</PackageLicenseExpression>
+    <PackageLicenseExpression></PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Studios-Trente-Trente-Six/JRPG.NET</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Studios-Trente-Trente-Six/JRPG.NET</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Geography\IGeographicNode.cs~RF98e0a8.TMP" />
     <None Remove="ISpecialStats.cs~RF724eb2.TMP" />
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -55,6 +39,9 @@ SOFTWARE.
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="PressKit\LogoSimple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
